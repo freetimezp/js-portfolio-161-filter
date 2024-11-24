@@ -89,6 +89,7 @@ button.active {
 
 .item {
     width: 250px;
+    height: 150px;
     padding-top: 25px;
     display: flex;
     justify-content: center;
@@ -99,7 +100,10 @@ button.active {
 }
 
 .item img {
-    width: 75px;
+    width: 175px;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 
