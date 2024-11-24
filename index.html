@@ -6,12 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Project</title>
+    <title>Project | Filter</title>
 </head>
 
 <body>
-    start
+    <div class="container">
+        <nav>
+            <div class="nav-items">
+                <a href="#">Logotype</a>
+            </div>
+            <div class="nav-items">
+                <a href="#">Services</a>
+                <a href="#">Work</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-items">
+                <a href="#">Press for ?</a>
+            </div>
+        </nav>
 
+        <div class="filters">
+            <button data-filter="featured" class="active">Featured</button>
+            <button data-filter="branding">Branding</button>
+            <button data-filter="marketing">Marketing</button>
+            <button data-filter="website">Website</button>
+            <button data-filter="content">Content</button>
+            <button data-filter="ecommerce">Ecommerce</button>
+        </div>
+
+        <div class="items"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
